@@ -1,0 +1,107 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+/* GENERALE */
+body{
+    padding: 20px;
+}
+h1{
+    font-size: 2em;
+    font-weight: 800;
+    text-align: center;
+}
+p,a{
+    font-size: 1.2em;
+}
+.section{
+    margin-top: 30px;
+}
+h2{
+    font-size: 1.5em;
+    font-weight: 800;
+    text-align: left;
+}
+hr{
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+ul li{
+    margin: 5px 0 10px 0;
+}
+h3{
+    color: rgb(110, 110, 110);
+    font-size: 1.1em;
+    font-weight: 700;
+}
+/* CONTACT */
+h2.title{
+    color: rgb(110, 110, 110);
+    font-size: 1.7em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info *{
+    display: inline;
+    margin: 5px 10px 5px 10px;
+}
+/* summary */
+.summary{
+    text-align: justify;
+}
+/* SKILLS */
+.skills >div{
+    display: flex;
+    justify-content: left;
+    gap: 20%;
+}
+.technology *{
+    display: inline;
+}
+#technology{
+    display: flex;
+    justify-content: center;
+}
+div#technology>div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#soft{
+    display: flex;
+    justify-content: center;
+}
+div#soft>div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+/* EDUCATION */
+.education div>div{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0 15px 0;
+}
+/* PROJECT */
+p.project{
+    width: 150px;
+}
+.projects li{
+    display: flex;
+    gap: 30px;
+    text-align: left;
+}
+/* INTEREST */
+.Interests> div{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.Interests h4{
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
